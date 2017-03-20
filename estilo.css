@@ -18,6 +18,21 @@ body{background-image: url(bg.jpg);background-size: cover;font-family: Arial;}
 #nav a{font-size: 18px; font-family: 'Helvetica', sans-serif; transition: all .2s linear; text-align: center; margin-top:1%;}
 #nav a:hover{color: #2e04a0; transition: all .2s linear;}
 .container{width: 1000px;margin: 0 auto;}
+#images{
+    width: 80%;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    margin-top: 100px;
+}
+
+#images img{
+    width: 300px;
+    height: 300px;
+    margin: auto 20px;
+}
 .titulo{font-size: 70px;font-family: 'Baloo Bhaina';text-align: center;line-height: 80px;margin: 30px 0 0 0;color: #a00366;}
 .link{padding: 10px;display: inline-block;text-decoration: none;color: #8f9cc6;}
 .moldura{height: 600px;overflow: hidden;}
